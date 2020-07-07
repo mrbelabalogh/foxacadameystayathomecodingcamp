@@ -1,0 +1,106 @@
+#borderbox {
+  border: 2px solid;
+  background: black;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  font-size: 60px;
+  margin: 0px 400px 0px 400px;
+  color:white;
+  
+  
+}
+.box{
+  position:relative;
+  width: 500px;
+  height: 400px;
+  background: no-repeat top/300% url("first-website-header.png");
+  line-height: 125px;
+  text-align: center;
+  font-size: 40px;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  position: relative;
+  left: 100px;
+}
+
+#Anakonda{
+  font-size:80px;
+  display:inline-block;
+  position: relative;
+  top: 160px;
+  left: 200px;
+  
+}
+
+.boxbox{
+  border:2px solid;
+  background: grey;
+  width: 500px;
+  text-align: center;
+  
+}
+
+blockquote {
+  font-size: 25px;
+}
+
+blockquote::before {
+  content: '”';}
+ 
+blockquote::after { content:'”';}
+
+#label{
+  display:inline;
+  font-size: 25px;
+font-family: verdana;
+  font-style: italic;
+  padding: 20px;
+  position: absolute;
+  top:100px;
+  left:520px;
+  
+
+} 
+
+ul {
+  color:brown;
+  position: absolute;
+  left: 800px;
+  top: 190px;
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 25px;
+  
+}
+
+#ach {
+  padding: 200px 0px 0px 0px;
+}
+h2 {
+  font-size: 20px;
+  padding:0px 0px 200px 0px;
+}
+
+#bio {
+  font-size:20px;
+  padding: 200px 0px;
+  
+}
+
+#MBTI {
+  font-size:15px;
+  font-style: italic;
+}
+
+a {
+  color: white;
+  text-decoration:none;
+}
